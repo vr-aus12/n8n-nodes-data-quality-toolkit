@@ -16,10 +16,14 @@
         "name": "vvrr",
         "email": "vvrr.17.4@gmail.com"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/vvrr174/n8n-nodes-data-quality-toolkit.git"
-    },
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/vvrr174/n8n-nodes-data-quality-toolkit.git"
+},
+"publishConfig": {
+  "access": "public",
+  "provenance": true
+},
     "scripts": {
         "build": "n8n-node build",
         "build:watch": "tsc --watch",
