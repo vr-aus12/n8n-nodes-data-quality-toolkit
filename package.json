@@ -1,6 +1,6 @@
 {
     "name": "n8n-nodes-data-quality-toolkit",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Lightweight no-runtime-dependency n8n node for validating, cleaning, comparing, and scoring workflow data.",
     "license": "MIT",
     "homepage": "https://github.com/vvrr174/n8n-nodes-data-quality-toolkit",
@@ -16,14 +16,14 @@
         "name": "vvrr",
         "email": "vvrr.17.4@gmail.com"
     },
-"repository": {
-  "type": "git",
-  "url": "git+https://github.com/vvrr174/n8n-nodes-data-quality-toolkit.git"
-},
-"publishConfig": {
-  "access": "public",
-  "provenance": true
-},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vvrr174/n8n-nodes-data-quality-toolkit.git"
+    },
+    "publishConfig": {
+        "access": "public",
+        "provenance": true
+    },
     "scripts": {
         "build": "n8n-node build",
         "build:watch": "tsc --watch",
