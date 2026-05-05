@@ -1,0 +1,54 @@
+{
+    "name": "n8n-nodes-data-quality-toolkit",
+    "version": "0.1.0",
+    "description": "Lightweight no-runtime-dependency n8n node for validating, cleaning, comparing, and scoring workflow data.",
+    "license": "MIT",
+    "homepage": "https://github.com/vvrr174/n8n-nodes-data-quality-toolkit",
+    "keywords": [
+        "n8n-community-node-package",
+		"n8n",
+    "automation",
+    "data-quality",
+    "validation",
+    "data-cleaning"
+    ],
+    "author": {
+        "name": "vvrr",
+        "email": "vvrr.17.4@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vvrr174/n8n-nodes-data-quality-toolkit.git"
+    },
+   "scripts": {
+		"build": "n8n-node build",
+		"build:watch": "tsc --watch",
+		"test": "npm run build && node --test test/**/*.test.js",
+		"dev": "n8n-node dev",
+		"lint": "n8n-node lint",
+		"lint:fix": "n8n-node lint --fix",
+		"release": "n8n-node release",
+		"prepublishOnly": "n8n-node prerelease"
+	},
+    "files": [
+        "dist"
+    ],
+    "n8n": {
+        "n8nNodesApiVersion": 1,
+        "strict": true,
+        "credentials": [],
+        "nodes": [
+            "dist/nodes/DataQualityToolkit/DataQualityToolkit.node.js"
+        ]
+    },
+    "devDependencies": {
+        "@n8n/node-cli": "*",
+        "eslint": "9.32.0",
+        "prettier": "3.6.2",
+        "release-it": "^19.0.4",
+        "typescript": "5.9.2"
+    },
+    "peerDependencies": {
+        "n8n-workflow": "*"
+    }
+}

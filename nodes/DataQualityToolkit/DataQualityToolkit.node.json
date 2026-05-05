@@ -1,0 +1,14 @@
+{
+  "node": "n8n-nodes-data-quality-toolkit.dataQualityToolkit",
+  "nodeVersion": "1.0",
+  "codexVersion": "1.0",
+  "categories": ["Data & Storage"],
+  "resources": {
+    "primaryDocumentation": [
+      {
+        "url": "https://github.com/vvrr174/n8n-nodes-data-quality-toolkit#readme"
+      }
+    ]
+  },
+  "alias": ["validation", "data cleaning", "data quality", "compare records"]
+}
