@@ -1,6 +1,6 @@
 {
     "name": "n8n-nodes-data-quality-toolkit",
-    "version": "0.1.8",
+    "version": "0.1.9",
     "description": "Lightweight no-runtime-dependency n8n node for validating, cleaning, comparing, and scoring workflow data.",
     "license": "MIT",
     "homepage": "https://github.com/vr-aus12/n8n-nodes-data-quality-toolkit",
